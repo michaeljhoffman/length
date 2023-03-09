@@ -4,11 +4,12 @@
 	test */
 #define LOWER 1
 #define UPPER 12
+#define STEP 1
 
 /* Print length conversion table*/
 main()
 {
     int inch;
-	for (inch = LOWER; inch <= UPPER, inch = inch + STEP)
-        printf("%3d %6.1f/n", inch, 2.54*inch)
+	for (inch = LOWER; inch <= UPPER; inch = inch + STEP)
+        printf("%3d %6.2f\n", inch, 2.54*inch);
 }
