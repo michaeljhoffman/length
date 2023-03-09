@@ -1,7 +1,6 @@
 #include <stdio.h>
-/* print Fahrenheit-Celsius table
-	for fahr = 0, 20, ..., 300; floating point version 
-	test */
+/* print Inch-Centimeter table
+ for 1, 2, 3,..., 36 inches*/
 #define LOWER 1
 #define UPPER 36
 #define STEP 1
