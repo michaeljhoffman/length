@@ -3,7 +3,7 @@
 	for fahr = 0, 20, ..., 300; floating point version 
 	test */
 #define LOWER 1
-#define UPPER 12
+#define UPPER 36
 #define STEP 1
 
 /* Print length conversion table*/
