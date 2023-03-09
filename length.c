@@ -10,6 +10,9 @@
 main()
 {
     int inch;
+    char *i = "IN";
+    char *c = "CM";
+    printf("%3s %6s\n",i,c);
 	for (inch = LOWER; inch <= UPPER; inch = inch + STEP)
         printf("%3d %6.2f\n", inch, 2.54*inch);
 }
